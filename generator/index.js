@@ -1,18 +1,22 @@
 module.exports = (api, options, rootOptions) => {
   api.extendPackage({
     dependencies: {
-      'rxjs': '^6.3.3',
-      'vue-rx': '^6.0.1',
+      "framework7": "^3.4.3",
+      "framework7-vue": "^3.4.3",
     },
   });
 
-  if (options.addExample) {
-    api.render('./template', {
-      ...options,
-    });
-  }
+  // if (options.addExample) {
+  //   api.render('./template', {
+  //     ...options,
+  //   });
+  // }
 
-  let rxLines = `\nimport VueRx from 'vue-rx';\n\nVue.use(VueRx);`;
+  let f7LinesImport = `\nimport Framework7Vue from 'framework7-vue/framework7-vue.esm.bundle.js'\n`;
+
+  let f7LinesUse = `\nFramework7.use(Framework7Vue)\n`;
+
+
 
   api.onCreateComplete(() => {
     // inject to main.js
@@ -26,7 +30,7 @@ module.exports = (api, options, rootOptions) => {
 
     // inject import
     const lastImportIndex = lines.findIndex(line => line.match(/^import/));
-    lines[lastImportIndex] += rxLines;
+    lines[lastImportIndex] += f7LinesImport + f7LinesUse;
 
     // modify app
     contentMain = lines.reverse().join('\n');

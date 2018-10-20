@@ -1,19 +1,20 @@
 {
-  "name": "vue-cli-plugin-rx",
-  "version": "0.1.5",
-  "description": "Vue-cli 3 plugin for adding RxJS support to project using vue-rx",
+  "name": "vue-cli-plugin-framework7",
+  "version": "0.1.0",
+  "description": "Vue-cli 3 plugin for adding Framework7 support to project using framework7-vue",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NataliaTepluhina/vue-cli-plugin-rx.git"
+    "url": "git+https://github.com/etino/vue-cli-plugin-framework7"
   },
   "keywords": [
     "vue",
     "vue-cli",
-    "rxjs",
-    "vue-rx"
+    "framework7",
+    "framework7-vue"
   ],
-  "author": "Natalia Tepluhina <tarya.se@gmail.com>",
+  "author": "Stefano Giraldi <stefano.giraldi@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/NataliaTepluhina/vue-cli-plugin-rx#readme"
+  "homepage": "https://github.com/etino/vue-cli-plugin-framework7#readme",
+  "dependencies": {}
 }
