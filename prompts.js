@@ -1,8 +1,8 @@
 module.exports = [
   {
-    name: `addExample`,
+    name: `addExampleApplication`,
     type: 'confirm',
-    message: 'Add example component to components folder?',
+    message: 'Add Framework7 Vue Example Application?',
     default: false,
   },
 ];
