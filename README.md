@@ -22,7 +22,6 @@ Enter insiede the directory project and install vue-cli-plugin-framework7
 
 ```
 cd project-name
-npm install vue-cli-plugin-framework7
 ```
 
 To add Framework7 support to your vue-cli-powered project, run the following command in the project root folder:
@@ -31,7 +30,9 @@ To add Framework7 support to your vue-cli-powered project, run the following com
 vue add framework7
 ```
 
-You will be prompted to choose if you want to add the Framewor7 example application. If you pick `yes` option, the example application will replace the example Vue App in your project. 
+You will be prompted to choose if you want to add the Framewor7 example application. 
+
+If you pick `yes` option, the example application will replace the example Vue App in your project (attention, the framework7 package is about 165MB).
 
 Run
 
