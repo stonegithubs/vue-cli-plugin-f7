@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/etino/vue-cli-plugin-framework7"
+    "url": "git+https://github.com/stonegithubs/vue-cli-plugin-f7.git"
   },
   "keywords": [
     "vue",
@@ -13,8 +13,14 @@
     "framework7",
     "framework7-vue"
   ],
-  "author": "Stefano Giraldi <stefano.giraldi@gmail.com>",
+  "author": "stone <stonewahaha@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/etino/vue-cli-plugin-framework7#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/stonegithubs/vue-cli-plugin-f7#readme",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/stonegithubs/vue-cli-plugin-f7/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
