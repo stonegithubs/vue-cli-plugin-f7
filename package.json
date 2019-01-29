@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stonegithubs/vue-cli-plugin-f7.git"
+    "url": "git+https://github.com/stonegithubs/vue-cli-plugin-f7-vue.git"
   },
   "keywords": [
     "vue",
@@ -13,12 +13,12 @@
     "framework7",
     "framework7-vue"
   ],
-  "author": "stone <stonewahaha@gmail.com>",
+  "author": "stone <stonewahaha@live.com>",
   "license": "MIT",
-  "homepage": "https://github.com/stonegithubs/vue-cli-plugin-f7#readme",
+  "homepage": "https://github.com/stonegithubs/vue-cli-plugin-f7-vue#readme",
   "dependencies": {},
   "bugs": {
-    "url": "https://github.com/stonegithubs/vue-cli-plugin-f7/issues"
+    "url": "https://github.com/stonegithubs/vue-cli-plugin-f7-vue/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
