@@ -1,11 +1,11 @@
 {
-  "name": "vue-cli-plugin-f7-vue",
+  "name": "vue-cli-plugin-framework7-vue",
   "version": "0.1.0",
   "description": "Vue-cli 3 plugin for adding Framework7 support to project using framework7-vue",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stonegithubs/vue-cli-plugin-f7-vue.git"
+    "url": "git+https://github.com/stonegithubs/vue-cli-plugin-framework7-vue.git"
   },
   "keywords": [
     "vue",
@@ -15,10 +15,10 @@
   ],
   "author": "stone <stonewahaha@live.com>",
   "license": "MIT",
-  "homepage": "https://github.com/stonegithubs/vue-cli-plugin-f7-vue#readme",
+  "homepage": "https://github.com/stonegithubs/vue-cli-plugin-framework7-vue#readme",
   "dependencies": {},
   "bugs": {
-    "url": "https://github.com/stonegithubs/vue-cli-plugin-f7-vue/issues"
+    "url": "https://github.com/stonegithubs/vue-cli-plugin-framework7-vue/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
