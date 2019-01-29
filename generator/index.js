@@ -1,13 +1,14 @@
 module.exports = (api, options, rootOptions) => {
   api.extendPackage({
     dependencies: {
-      "framework7": "^3.4.3",
-      "framework7-vue": "^3.4.3",
-      "material-design-icons": "^3.0.1",
-      "framework7-icons": "^0.9.1"
+      "dom7": "^2.1.2",
+      "framework7": "^4.0.0-beta.30",
+      "framework7-vue": "^4.0.0-beta.30",
+      "framework7-icons": "^2.1.1",
+      "template7": "^1.4.0",
     },
     devDependencies: {
-      "css-loader": "^1.0.0", 
+      "css-loader": "^2.1.0", 
       "cpy-cli": "^2.0.0"
     }, 
     scripts: {
