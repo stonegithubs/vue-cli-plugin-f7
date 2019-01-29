@@ -1,5 +1,5 @@
 {
-  "name": "vue-cli-plugin-framework7",
+  "name": "vue-cli-plugin-f7",
   "version": "0.1.0",
   "description": "Vue-cli 3 plugin for adding Framework7 support to project using framework7-vue",
   "main": "index.js",
