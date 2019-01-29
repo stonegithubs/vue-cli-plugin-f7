@@ -12,7 +12,7 @@ module.exports = (api, options, rootOptions) => {
       "cpy-cli": "^2.0.0"
     }, 
     scripts: {
-      "copy-fonts": "cpy node_modules/framework7-icons/fonts/*.* src/fonts && cpy node_modules/material-design-icons/iconfont/*.{eot,ttf,woff,woff2} src/fonts",
+      "copy-fonts": "cpy node_modules/framework7-icons/fonts/*.* src/fonts",
       "postinstall": "npm run copy-fonts"
     }
   });
